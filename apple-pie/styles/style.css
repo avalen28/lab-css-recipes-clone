@@ -1,77 +1,79 @@
+
+/* miscelania
+Se podría unificar seguramente los "section-title" y "xxxx-list" porque tienen
+mismos valores (al igual que otras clases/atributos pero he dejado la
+estructura así para en un inicio ver los bloques y qué afecta cada bloque
+
+Have fun!!
+*/
+
 *{
     box-sizing:border-box;
     margin: 0;
     font-family: Arial, sans-serif; /* Desconozco el estilo exacto de fuente. */
   }
 
-.line{
-width: 85%;
-margin-left: 100px;
-margin-right: auto;
+body{
+  font-size: 16px;
+  }
 
-  }
-.header{
-    background-image: url("../images/apple-pie.jpg");
-    height: 1400px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.title{
-  color: white;
-  font-size: 100px;  
-}
+  /* top web */
+  .header{
+      background-image: url("../images/apple-pie.jpg");
+      height: 1400px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }   
+  .title{
+    color: white;
+    font-size: 8rem; 
+  } 
+  /* end top web*/
 
-.section_1{
-  font-size: 35px;
-  padding-top: 100px;
-  padding-left: 100px;
-  padding-right: 150px;
-  justify-content: center;
-}
-.intro{
-  width: 65%;
-  margin-left: auto;
-  margin-right: auto;
-  
-}
-.recipe-info{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  padding-top: 20px;
-  padding-bottom: 30px;
+  /* first block*/
+  .all-style{
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 70px;
   }
-.section_2_3{
-    font-size: 25px;
-    padding-top: 50px;
-    padding-left: 100px;
-    padding-right: 150px;
+  .section_1{
+    padding-top: 70px;
+    font-size: 3.2rem;
   }
-.section-title{
-  font-size: 35px;
-  padding-bottom: 20px;
-}
-.ingredients-list{
-  list-style-type: none;
-  /* No he encontrado como hacer que la ul sea con guiones.*/
-  font-size: 45px;
-}
-.coocking-info{
-  
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  padding-top: 20px;
-  padding-bottom: 30px;
+  .image-info{ /* applies in second block too */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 20px;
+    padding-bottom: 30px;
   }
-.direction-list{
+  /* end first block*/
+
+  /* second block */
+  .section-standar{ /* applies in third block too */
+    padding-top: 60px;
+    font-size: 3rem;
+    }
+  .section-title{ /* applies in third block too */
+    padding-bottom: 50px;
+  }
+  .ingredients-list{
     list-style-type: none;
     /* No he encontrado como hacer que la ul sea con guiones.*/
-    font-size: 45px;
-
+    font-size: 2.7rem;
   }
+  /* end second block */
+  
+  /* third block */
+  .direction-list{
+      list-style-type: none;
+      /* No he encontrado como hacer que la ul sea con guiones.*/
+      font-size: 2.7rem;
+    }
+
+  /* end third block */  
+
